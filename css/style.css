@@ -5,3 +5,12 @@ body {
 	color: #fff;
 	background-color: #008a26;
 }
+
+.video,
+.chat {
+	width: 672px;
+	display: block;
+	margin: 0 auto;
+	clear: both;	
+}
+
