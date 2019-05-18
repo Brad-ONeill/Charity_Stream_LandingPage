@@ -6,11 +6,15 @@ body {
 	background-color: #008a26;
 }
 
-.video,
-.chat {
-	width: 672px;
+.container {
+	width: 640px;
 	display: block;
 	margin: 0 auto;
-	clear: both;	
+	clear: both;
 }
 
+.video {
+}
+
+.chat {
+}
