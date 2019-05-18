@@ -1,5 +1,7 @@
 /*	title font - font-family: 'Permanent Marker', cursive; */
 
-body {font-family: 'Caveat', cursive;
-	
+body {
+	font-family: 'Caveat', cursive;
+	color: #fff;
+	background-color: #008a26;
 }
