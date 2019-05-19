@@ -10,8 +10,16 @@ body {
 	margin: 20px
 }
 
+.vidcontain {
+	width:90%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	clear: both;
+}
+
 .video {
-	
+
 	display: flex;
 	width: 50%;
 	flex-wrap: wrap;
@@ -20,10 +28,12 @@ body {
 
 iframe.brad {
 	flex: 1;
-	height: 388px
+	height: 480px;
+	margin: 5px;
 }
 
 iframe.other {
-	flex:  1;
-	height: 388px
+	flex: 1;
+	height: 480px;
+	margin: 5px;
 }
