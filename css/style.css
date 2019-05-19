@@ -6,23 +6,24 @@ body {
 	background-color: #008a26;
 }
 
-.center {
-	text-align: center;
-
-}
-
-.container {
-	width: 49%;
-	display: block;
-	margin: 0 auto;
-	clear: both;
-
+.logo {
+	margin: 20px
 }
 
 .video {
-	display: inline-block;
+	
+	display: flex;
+	width: 50%;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.chat {
-	display: inline-block;
+iframe.brad {
+	flex: 1;
+	height: 388px
+}
+
+iframe.other {
+	flex:  1;
+	height: 388px
 }
