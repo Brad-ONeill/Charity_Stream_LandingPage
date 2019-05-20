@@ -3,25 +3,51 @@
 body {
 	font-family: 'Caveat', cursive;
 	color: #fff;
-	background-color: #008a26;
+	background-color: #008a26; /* 6441a5 = twitch purple */
+}
+
+header {
+	width:90%;
+	flex-grow: 1 2;
+	justify-content: center;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+	clear: both;
 }
 
 .logo {
-	margin: 20px
+	flex: 1;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+}
+.title {
+	flex: 2;
+	width: 394px;
+	height: 82px;
+	margin: 5px;
+}
+
+.suptitle {
+	flex: 2;
+	float: right;
+	width: 400px;
+	height: 100px;
+	margin: 5px;
 }
 
 .vidcontain {
-	width:90%;
-	text-align: center;
+	width: 90%;
 	display: block;
 	margin: 0 auto;
 	clear: both;
 }
 
 .video {
-
 	display: flex;
-	width: 50%;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -37,3 +63,5 @@ iframe.other {
 	height: 480px;
 	margin: 5px;
 }
+
+.chat {}
