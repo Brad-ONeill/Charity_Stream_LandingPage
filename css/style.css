@@ -3,11 +3,11 @@
 body {
 	font-family: 'Caveat', cursive;
 	color: #fff;
-	background-color: #008a26; /* 6441a5 = twitch purple */
+	background-color: #008a26;	/* 6441a5 = twitch purple */
 }
 
 header {
-	width:90%;
+	width: 90%;
 	flex-grow: 1 2;
 	justify-content: center;
 }
@@ -24,6 +24,7 @@ header {
 	height: 100px;
 	margin: 5px;
 }
+
 .title {
 	flex: 2;
 	width: 394px;
